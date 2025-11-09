@@ -11,11 +11,11 @@ int main()
             scanf("%d",&a[i][j]);
         }
     }
-    int nRow = 0;
-    scanf("%d", &nRow);
-    for(int i = 0; i<c; i++)
+    int nCol = 0;
+    scanf("%d", &nCol);
+    for(int i = 0; i<r; i++)
     {
-        printf("%d ", a[nRow][i]);
+        printf("%d ", a[i][nCol]);
     }
 
     return 0;
