@@ -1,1 +1,1 @@
-this is not a zero matrix
+this is a diogonal matrix
